@@ -6,19 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e360ef57-5f52-4a98-98e0-7abfa207748f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/CompresorTuts_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CompresorTuts.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MiGUI.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MiGUI.java" afterDir="false" />
+    <list default="true" id="e360ef57-5f52-4a98-98e0-7abfa207748f" name="Changes" comment="funciona ver si lista.txt existe">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MiGUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/MiGUI.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MiGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MiGUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +57,14 @@
       <option name="presentableId" value="Default" />
       <updated>1665093199013</updated>
     </task>
+    <task id="LOCAL-00001" summary="funciona ver si lista.txt existe">
+      <created>1665325195106</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665325195106</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -78,5 +77,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="funciona ver si lista.txt existe" />
+    <option name="LAST_COMMIT_MESSAGE" value="funciona ver si lista.txt existe" />
   </component>
 </project>
