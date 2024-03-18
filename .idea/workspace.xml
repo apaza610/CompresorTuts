@@ -5,12 +5,11 @@
       <artifact name="CompresorTuts:jar" />
     </artifacts-to-build>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e360ef57-5f52-4a98-98e0-7abfa207748f" name="Changes" comment="funciona ver si lista.txt existe">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MiGUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/MiGUI.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MiGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MiGUI.java" afterDir="false" />
-    </list>
+    <list default="true" id="e360ef57-5f52-4a98-98e0-7abfa207748f" name="Changes" comment="funciona con CLI pero hay que cerrar app para que empiece conversion" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +28,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2FmNEyNKv4P8pQ7jyha1PANUU6R" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -37,17 +39,55 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.MiGUI.executor": "Run",
+    "JAR Application.CompresorTuts.jar.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "260",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "318",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/misapps/pcjava/flatlaf-3.3.jar",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings",
+    "settings.editor.selected.configurable": "configurable.group.appearance",
     "settings.editor.splitter.proportion": "0.25867507"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "Properties"
+    ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\misapps\pcjava\CompresorTuts\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\misapps\pcjava\CompresorTuts\out\artifacts\CompresorTuts_jar" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MiGUI">
+    <configuration name="MiGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MiGUI" />
+      <module name="CompresorTuts" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompresorTuts.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/CompresorTuts_jar/CompresorTuts.jar" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MiGUI" />
+        <item itemvalue="JAR Application.CompresorTuts.jar" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

@@ -3,6 +3,7 @@
     <output-path>$PROJECT_DIR$/out/artifacts/CompresorTuts_jar</output-path>
     <root id="archive" name="CompresorTuts.jar">
       <element id="module-output" name="CompresorTuts" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../flatlaf-3.3.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>
