@@ -36,8 +36,10 @@ public class Hilo extends Thread {
         if(!listaTXT.isFile()) {
             try {
                 filtrarListaMP4s();
-                escribirEnTXT();
-                lblDebug.setText("lista.txt ha sido creada");
+                if (arePathsClean){
+                    escribirEnTXT();
+                    lblDebug.setText("lista.txt ha sido creada");
+                }
             } catch (IOException e) { System.out.println("ha ocurrido un error"); }
         }
         //********** lista.txt ∃ leerlo y efectuar operaciones
@@ -53,10 +55,17 @@ public class Hilo extends Thread {
         }
     }
 
+    boolean arePathsClean = true;
     private void filtrarListaMP4s() throws IOException {
         BiPredicate<Path, BasicFileAttributes> matcher = (elpath, atributo)-> String.valueOf(elpath).contains(".mp4");
         lRecursiva = Files.find(Path.of(pathRAIZ), 3, matcher);
         lPathsMP4s = lRecursiva.collect(Collectors.toList());
+        for (Object n: lPathsMP4s){
+            if (n.toString().contains(" ")){
+                lblDebug.setText("Error: blank spaces in names!!");
+                arePathsClean = false;
+            }
+        }
         lPathsTmp = lPathsMP4s.toArray(new Path[0]);
     }
 
