@@ -63,14 +63,16 @@
               </grid>
             </constraints>
             <properties>
+              <enabled value="false"/>
               <text value="1.4"/>
             </properties>
           </component>
-          <component id="cc969" class="javax.swing.JLabel">
+          <component id="cc969" class="javax.swing.JLabel" binding="lblHayasa">
             <constraints>
               <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
+              <enabled value="false"/>
               <text value="ByFactor"/>
             </properties>
           </component>

@@ -12,6 +12,7 @@ public class MiGUI extends JFrame{
     private JLabel lblDebug;
     private JTextField tfHayasa;
     private JCheckBox checkBox;
+    private JLabel lblHayasa;
     private Path pathRAIZ;       // D:\miFolder
 
     public MiGUI(){
@@ -21,6 +22,16 @@ public class MiGUI extends JFrame{
         setResizable(false);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setContentPane(pnlFondo);
+
+        checkBox.addActionListener( e->{
+            if ( checkBox.isSelected() ){
+                lblHayasa.setEnabled(true);
+                tfHayasa.setEnabled(true);
+            }else{
+                lblHayasa.setEnabled(false);
+                tfHayasa.setEnabled(false);
+            }
+        });
 
         btnCompresion.addActionListener( e -> {
             pathRAIZ = Paths.get(tfPathTutorial.getText());
