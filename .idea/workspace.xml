@@ -9,10 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e360ef57-5f52-4a98-98e0-7abfa207748f" name="Changes" comment="Avoid names with whitespaces">
+    <list default="true" id="e360ef57-5f52-4a98-98e0-7abfa207748f" name="Changes" comment="Showing speedUp GUI only when needed..">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MiGUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/MiGUI.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MiGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MiGUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +123,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710763195359</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Showing speedUp GUI only when needed..">
+      <option name="closed" value="true" />
+      <created>1711409340602</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711409340602</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -142,6 +149,7 @@
     <MESSAGE value="funciona ver si lista.txt existe" />
     <MESSAGE value="Added checkbox to ask if user want to speed up/down the videos" />
     <MESSAGE value="Avoid names with whitespaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="Avoid names with whitespaces" />
+    <MESSAGE value="Showing speedUp GUI only when needed.." />
+    <option name="LAST_COMMIT_MESSAGE" value="Showing speedUp GUI only when needed.." />
   </component>
 </project>

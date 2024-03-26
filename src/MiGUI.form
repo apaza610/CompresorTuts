@@ -104,7 +104,7 @@
               <autoscrolls value="true"/>
               <foreground color="-1907998"/>
               <requestFocusEnabled value="false"/>
-              <text value="...~~~..."/>
+              <text value="..."/>
             </properties>
           </component>
         </children>
