@@ -16,7 +16,7 @@ public class MiGUI extends JFrame{
     private Path pathRAIZ;       // D:\miFolder
 
     public MiGUI(){
-        setTitle("Compresor MP4s");
+        setTitle("CompresorTutsMP4");
         setSize(360, 130);
         setVisible(true);
         setResizable(false);
