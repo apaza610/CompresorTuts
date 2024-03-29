@@ -9,9 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e360ef57-5f52-4a98-98e0-7abfa207748f" name="Changes" comment="Fixed GUI text">
+    <list default="true" id="e360ef57-5f52-4a98-98e0-7abfa207748f" name="Changes" comment="Fixed title bar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MiGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MiGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MiGUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/MiGUI.form" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,8 +86,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MiGUI" />
         <item itemvalue="JAR Application.CompresorTuts.jar" />
+        <item itemvalue="Application.MiGUI" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +139,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711496118475</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fixed title bar">
+      <option name="closed" value="true" />
+      <created>1711595049204</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1711595049204</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -159,6 +167,7 @@
     <MESSAGE value="Avoid names with whitespaces" />
     <MESSAGE value="Showing speedUp GUI only when needed.." />
     <MESSAGE value="Fixed GUI text" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed GUI text" />
+    <MESSAGE value="Fixed title bar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed title bar" />
   </component>
 </project>
