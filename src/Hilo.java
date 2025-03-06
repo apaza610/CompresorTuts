@@ -87,7 +87,7 @@ public class Hilo extends Thread {
     }
 
     private void operarMP4s() {
-        System.out.println("--------------------------***-------------------------");
+        System.out.println("--------------------------udando H265-------------------------");
         lPathsMP4s.forEach(x-> {
             File file = new File(x.toUri());
             currentMP4 = file.getName();
@@ -98,7 +98,7 @@ public class Hilo extends Thread {
             Process proc = null;
             try {
                 if(this.operacion == 1){
-                    proc = Runtime.getRuntime().exec(String.format("ffmpeg -i %s -vf scale=-1:720 -codec:v libx264 -codec:a aac -crf 25 -preset slow %s",xIN,xOUT));
+                    proc = Runtime.getRuntime().exec(String.format("ffmpeg -i %s -vf scale=-1:720 -codec:v libx265 -codec:a aac -crf 25 -preset slow %s",xIN,xOUT));
                 } else if (this.operacion == 2) {
                     proc = Runtime.getRuntime().exec(String.format("ffmpeg -i %s -vf \"setpts=%s*PTS\" -af \"atempo=%s\" %s",xIN,1/this.RPDZ,this.RPDZ,xOUT));
                 }
